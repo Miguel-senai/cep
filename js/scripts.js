@@ -19,6 +19,7 @@ async function ColetarCep(dados) {
 function DadosTela(cep) {
     console.log(cep);
     document.getElementById("logradouro").value = cep.logradouro;
+    document.getElementById("complemento").value = cep.complemento;
     document.getElementById("bairro").value = cep.bairro;
     document.getElementById("localidade").value = cep.localidade;
     document.getElementById("uf").value = cep.uf;
